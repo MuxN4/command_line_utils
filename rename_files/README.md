@@ -1,4 +1,4 @@
-# Handy Helper Scripts 🛠️
+# Command Line Utility 🛠️
 
 ## Overview
 
