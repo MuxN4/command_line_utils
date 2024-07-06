@@ -14,12 +14,12 @@ def parse_arguments():
     return parser.parse_args()
 
 def main():
-    args = parse_arguments()
-    if not validate_directory(args.directory):
+    args = parse_arguments()  # Parse command-line arguments
+    if not validate_directory(args.directory):  # Validate if directory exists
         logging.error(f"Invalid directory: {args.directory}")
         return
     
-    files = os.listdir(args.directory)
+    files = os.listdir(args.directory) # Get list of files in the specified directory
     files = filter_files(files, args)
 
     for file in files:
@@ -34,4 +34,4 @@ def main():
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    main()
+    main() # Execute the main function
