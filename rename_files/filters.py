@@ -1,7 +1,7 @@
 import os
 import datetime
 
-def filter_files(files, args):
+def filter_files(files, args): #Filter a list of filenames based on given criteria
     filtered_files = []
     for file in files:
         file_path = os.path.join(args.directory, file)
