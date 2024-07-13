@@ -63,5 +63,3 @@ python rename_files/rename.py ~/New\ folder --pattern 'new_hello.py'
 ### Conclusion
 
 I hope you find these scripts as fun and useful as I do!Feel free to further customize it to fit your preferences or project specifics!
-
-Sorry for making it too long – I weirdly just enjoyed myself on this one. 
