@@ -17,12 +17,6 @@ These scripts are super versatile and can be used for a variety of tasks in diff
 
 ## Installation
 
-### Prerequisites
-
-- Basic understanding of Python 🐍
-- Familiarity with command-line tools
-- Python installed on your machine (version 3.6+)
-
 ### Steps
 
 1. Clone the repository:
