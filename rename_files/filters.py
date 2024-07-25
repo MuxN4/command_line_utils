@@ -13,5 +13,5 @@ def filter_files(files, args): #Filter a list of filenames based on given criter
             mod_time = datetime.datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%m-%d')
             if mod_time != args.modified:
                 continue
-        filtered_files.append(file)
+        filtered_files.append(file)   # If file meets all criteria, add to filtered list
     return filtered_files
