@@ -28,6 +28,7 @@ def main():
         src = os.path.join(args.directory, file)
         dst = os.path.join(args.directory, args.pattern.format(i=i, original=file))
         try:
+            # Performs the file renaming operation
             shutil.move(src, dst)
             logging.info(f"Renamed {src} to {dst}")
         except Exception as e:
